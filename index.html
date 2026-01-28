@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Data Scientist | Zinedine Daffa Izaaz</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        :root {
+            --bg-body: #ffffff;
+            --text-primary: #1a1a1a;
+            --text-gold: #bfa15f; 
+            --text-grey: #555;
+            --code-bg: #f4f4f4;
+        }
+
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-primary);
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            line-height: 1.8;
+        }
+
+        h1, h2, h3, .navbar-brand {
+            font-family: 'Playfair Display', serif;
+            color: var(--text-primary);
+        }
+
+        /* Navbar */
+        .navbar {
+            padding: 2rem 0;
+            background: rgba(255,255,255,0.98);
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .btn-link-custom {
+            text-decoration: none;
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 2px;
+            transition: 0.3s;
+        }
+
+        .btn-link-custom:hover {
+            color: var(--text-gold);
+            border-color: var(--text-gold);
+        }
+
+        /* Hero */
+        .hero {
+            padding: 120px 0 100px 0;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .tech-tag {
+            font-size: 0.75rem;
+            background-color: var(--code-bg);
+            padding: 5px 10px;
+            border-radius: 4px;
+            color: #333;
+            font-weight: 700;
+            margin-right: 5px;
+            display: inline-block;
+            margin-bottom: 5px;
+            font-family: 'Consolas', monospace;
+        }
+
+        /* Project Section */
+        .project-section {
+            padding: 90px 0;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .project-img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
+            transition: transform 0.3s;
+            border-radius: 2px;
+        }
+
+        .project-img:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-category {
+            color: var(--text-gold);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .project-title {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 80px 0;
+            border-top: 1px solid #eaeaea;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .project-img { height: 250px; margin-bottom: 30px; }
+            .order-mobile-first { order: -1; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">ZINEDINE DAFFA IZAAZ</a>
+            <div>
+                <a href="https://linkedin.com/in/izaazzinedine" target="_blank" class="me-3 text-dark"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="mailto:izaazzzinedine@gmail.com" class="btn-link-custom">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero container">
+        <p class="text-gold text-uppercase mb-3" style="letter-spacing: 3px; font-size: 0.8rem;">Data Scientist & Analytics Portfolio</p>
+        
+        <h1>Bridging the gap between <br> <span style="font-style: italic; color: var(--text-gold);">Raw Data</span> and <span style="font-style: italic; color: var(--text-gold);">Business Impact</span>.</h1>
+        
+        <p class="text-grey lead mb-4 mx-auto" style="max-width: 800px;">
+            Mahasiswa Sistem Informasi dengan visi strategis sebagai <strong>Data Scientist</strong>. 
+            Saya tidak hanya mengolah angka, tetapi mentransformasi data menjadi solusi nyata. 
+            Berbekal keahlian mendalam dalam <strong>Machine Learning</strong>, <strong>Data Warehousing</strong>, dan <strong>Business Intelligence</strong>, 
+            saya membantu organisasi mengambil keputusan yang lebih cerdas, cepat, dan terukur.
+        </p>
+        
+        <div class="mt-4">
+            <span class="tech-tag">Python (Pandas/Scikit-learn)</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">ETL & Data Warehousing</span>
+            <span class="tech-tag">Machine Learning</span>
+            <span class="tech-tag">Data Visualization</span>
+        </div>
+    </section>
+
+    <section class="project-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="ETL Process Diagram" class="project-img">
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <span class="project-category">Data Engineering • Data Warehouse</span>
+                    <h2 class="project-title">Toyota Used Cars Market Data Warehouse</h2>
+                    <div class="mb-3">
+                        <span class="tech-tag">Python ETL</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Star Schema</span>
+                        <span class="tech-tag">OLAP Analysis</span>
+                    </div>
+                    <p class="text-grey">
+                        <strong>Latar Belakang:</strong> Volume data pasar mobil bekas yang besar dan tidak terstruktur seringkali menghambat analisis harga yang akurat. Proyek ini bertujuan membangun sistem terpusat untuk mengelola data penjualan Toyota[cite: 78, 80].
+                    </p>
+                    <p class="text-grey">
+                        <strong>Solusi Teknis (ETL):</strong>
+                        Saya merancang pipeline <strong>ETL (Extract, Transform, Load)</strong> menggunakan Python. 
+                        Data mentah diekstrak, dibersihkan (handling missing values, outliers, normalisasi 3NF), dan dimuat ke dalam database <strong>PostgreSQL</strong> dengan desain <em>Star Schema</em> (Fact & Dimension Tables)[cite: 85, 327, 404].
+                    </p>
+                    <p class="text-grey">
+                        <strong>Hasil & Automasi:</strong>
+                        Menerapkan analisis OLAP untuk menghasilkan insight bisnis (tren harga, efisiensi BBM) dan membuat sistem pelaporan otomatis format PDF menggunakan library <code>reportlab</code>[cite: 87, 981].
+                    </p>
+                    <a href="Laporan_Hasil_Data_Warehouse.pdf" class="btn-link-custom mt-3 d-inline-block">Lihat Dokumentasi Lengkap <i class="fas fa-file-pdf ms-2 small"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h4 class="mb-4" style="font-family: 'Playfair Display';">Let's build scalable data solutions.</h4>
+            <div class="mb-4">
+                <a href="mailto:izaazzzinedine@gmail.com" style="font-size: 1.2rem; color: var(--text-primary); text-decoration: none; border-bottom: 1px solid var(--text-gold);">
+                    izaazzzinedine@gmail.com
+                </a>
+            </div>
+            <div class="text-muted small">
+                Depok, West Java • +62 813 1194 8479
+            </div>
+            <div class="mt-4 text-muted small" style="opacity: 0.6;">
+                &copy; 2026 Zinedine Daffa Izaaz.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
